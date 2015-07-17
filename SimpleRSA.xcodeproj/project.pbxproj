@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AED12741B5908CB00FEB954 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AED12731B5908CB00FEB954 /* main.m */; };
+		2AED12771B5908CB00FEB954 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AED12761B5908CB00FEB954 /* AppDelegate.m */; };
+		2AED127A1B5908CB00FEB954 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AED12791B5908CB00FEB954 /* ViewController.m */; };
+		2AED127D1B5908CB00FEB954 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AED127B1B5908CB00FEB954 /* Main.storyboard */; };
+		2AED127F1B5908CB00FEB954 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AED127E1B5908CB00FEB954 /* Images.xcassets */; };
+		2AED12821B5908CB00FEB954 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AED12801B5908CB00FEB954 /* LaunchScreen.xib */; };
+		2AED128E1B5908CB00FEB954 /* SimpleRSATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AED128D1B5908CB00FEB954 /* SimpleRSATests.m */; };
+		2AED129B1B5908E600FEB954 /* private_key.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 2AED12971B5908E600FEB954 /* private_key.p12 */; };
+		2AED129C1B5908E600FEB954 /* public_key.der in Resources */ = {isa = PBXBuildFile; fileRef = 2AED12981B5908E600FEB954 /* public_key.der */; };
+		2AED129D1B5908E600FEB954 /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AED129A1B5908E600FEB954 /* RSA.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AED12881B5908CB00FEB954 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AED12661B5908CB00FEB954 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AED126D1B5908CB00FEB954;
+			remoteInfo = SimpleRSA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2AED126E1B5908CB00FEB954 /* SimpleRSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleRSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AED12721B5908CB00FEB954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AED12731B5908CB00FEB954 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2AED12751B5908CB00FEB954 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2AED12761B5908CB00FEB954 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2AED12781B5908CB00FEB954 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2AED12791B5908CB00FEB954 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2AED127C1B5908CB00FEB954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AED127E1B5908CB00FEB954 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2AED12811B5908CB00FEB954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2AED12871B5908CB00FEB954 /* SimpleRSATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleRSATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AED128C1B5908CB00FEB954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AED128D1B5908CB00FEB954 /* SimpleRSATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleRSATests.m; sourceTree = "<group>"; };
+		2AED12971B5908E600FEB954 /* private_key.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = private_key.p12; sourceTree = "<group>"; };
+		2AED12981B5908E600FEB954 /* public_key.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = public_key.der; sourceTree = "<group>"; };
+		2AED12991B5908E600FEB954 /* RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSA.h; sourceTree = "<group>"; };
+		2AED129A1B5908E600FEB954 /* RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSA.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AED126B1B5908CB00FEB954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AED12841B5908CB00FEB954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AED12651B5908CB00FEB954 = {
+			isa = PBXGroup;
+			children = (
+				2AED12701B5908CB00FEB954 /* SimpleRSA */,
+				2AED128A1B5908CB00FEB954 /* SimpleRSATests */,
+				2AED126F1B5908CB00FEB954 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AED126F1B5908CB00FEB954 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AED126E1B5908CB00FEB954 /* SimpleRSA.app */,
+				2AED12871B5908CB00FEB954 /* SimpleRSATests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AED12701B5908CB00FEB954 /* SimpleRSA */ = {
+			isa = PBXGroup;
+			children = (
+				2AED12971B5908E600FEB954 /* private_key.p12 */,
+				2AED12981B5908E600FEB954 /* public_key.der */,
+				2AED12991B5908E600FEB954 /* RSA.h */,
+				2AED129A1B5908E600FEB954 /* RSA.m */,
+				2AED12751B5908CB00FEB954 /* AppDelegate.h */,
+				2AED12761B5908CB00FEB954 /* AppDelegate.m */,
+				2AED12781B5908CB00FEB954 /* ViewController.h */,
+				2AED12791B5908CB00FEB954 /* ViewController.m */,
+				2AED127B1B5908CB00FEB954 /* Main.storyboard */,
+				2AED127E1B5908CB00FEB954 /* Images.xcassets */,
+				2AED12801B5908CB00FEB954 /* LaunchScreen.xib */,
+				2AED12711B5908CB00FEB954 /* Supporting Files */,
+			);
+			path = SimpleRSA;
+			sourceTree = "<group>";
+		};
+		2AED12711B5908CB00FEB954 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AED12721B5908CB00FEB954 /* Info.plist */,
+				2AED12731B5908CB00FEB954 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2AED128A1B5908CB00FEB954 /* SimpleRSATests */ = {
+			isa = PBXGroup;
+			children = (
+				2AED128D1B5908CB00FEB954 /* SimpleRSATests.m */,
+				2AED128B1B5908CB00FEB954 /* Supporting Files */,
+			);
+			path = SimpleRSATests;
+			sourceTree = "<group>";
+		};
+		2AED128B1B5908CB00FEB954 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AED128C1B5908CB00FEB954 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AED126D1B5908CB00FEB954 /* SimpleRSA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AED12911B5908CB00FEB954 /* Build configuration list for PBXNativeTarget "SimpleRSA" */;
+			buildPhases = (
+				2AED126A1B5908CB00FEB954 /* Sources */,
+				2AED126B1B5908CB00FEB954 /* Frameworks */,
+				2AED126C1B5908CB00FEB954 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleRSA;
+			productName = SimpleRSA;
+			productReference = 2AED126E1B5908CB00FEB954 /* SimpleRSA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AED12861B5908CB00FEB954 /* SimpleRSATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AED12941B5908CB00FEB954 /* Build configuration list for PBXNativeTarget "SimpleRSATests" */;
+			buildPhases = (
+				2AED12831B5908CB00FEB954 /* Sources */,
+				2AED12841B5908CB00FEB954 /* Frameworks */,
+				2AED12851B5908CB00FEB954 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AED12891B5908CB00FEB954 /* PBXTargetDependency */,
+			);
+			name = SimpleRSATests;
+			productName = SimpleRSATests;
+			productReference = 2AED12871B5908CB00FEB954 /* SimpleRSATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AED12661B5908CB00FEB954 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = zhenwang;
+				TargetAttributes = {
+					2AED126D1B5908CB00FEB954 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					2AED12861B5908CB00FEB954 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 2AED126D1B5908CB00FEB954;
+					};
+				};
+			};
+			buildConfigurationList = 2AED12691B5908CB00FEB954 /* Build configuration list for PBXProject "SimpleRSA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AED12651B5908CB00FEB954;
+			productRefGroup = 2AED126F1B5908CB00FEB954 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AED126D1B5908CB00FEB954 /* SimpleRSA */,
+				2AED12861B5908CB00FEB954 /* SimpleRSATests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AED126C1B5908CB00FEB954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AED127D1B5908CB00FEB954 /* Main.storyboard in Resources */,
+				2AED12821B5908CB00FEB954 /* LaunchScreen.xib in Resources */,
+				2AED127F1B5908CB00FEB954 /* Images.xcassets in Resources */,
+				2AED129B1B5908E600FEB954 /* private_key.p12 in Resources */,
+				2AED129C1B5908E600FEB954 /* public_key.der in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AED12851B5908CB00FEB954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AED126A1B5908CB00FEB954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AED127A1B5908CB00FEB954 /* ViewController.m in Sources */,
+				2AED12771B5908CB00FEB954 /* AppDelegate.m in Sources */,
+				2AED129D1B5908E600FEB954 /* RSA.m in Sources */,
+				2AED12741B5908CB00FEB954 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AED12831B5908CB00FEB954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AED128E1B5908CB00FEB954 /* SimpleRSATests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AED12891B5908CB00FEB954 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AED126D1B5908CB00FEB954 /* SimpleRSA */;
+			targetProxy = 2AED12881B5908CB00FEB954 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2AED127B1B5908CB00FEB954 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AED127C1B5908CB00FEB954 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2AED12801B5908CB00FEB954 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AED12811B5908CB00FEB954 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AED128F1B5908CB00FEB954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2AED12901B5908CB00FEB954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AED12921B5908CB00FEB954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = SimpleRSA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2AED12931B5908CB00FEB954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = SimpleRSA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2AED12951B5908CB00FEB954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleRSATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleRSA.app/SimpleRSA";
+			};
+			name = Debug;
+		};
+		2AED12961B5908CB00FEB954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleRSATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleRSA.app/SimpleRSA";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AED12691B5908CB00FEB954 /* Build configuration list for PBXProject "SimpleRSA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AED128F1B5908CB00FEB954 /* Debug */,
+				2AED12901B5908CB00FEB954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AED12911B5908CB00FEB954 /* Build configuration list for PBXNativeTarget "SimpleRSA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AED12921B5908CB00FEB954 /* Debug */,
+				2AED12931B5908CB00FEB954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2AED12941B5908CB00FEB954 /* Build configuration list for PBXNativeTarget "SimpleRSATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AED12951B5908CB00FEB954 /* Debug */,
+				2AED12961B5908CB00FEB954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AED12661B5908CB00FEB954 /* Project object */;
+}
